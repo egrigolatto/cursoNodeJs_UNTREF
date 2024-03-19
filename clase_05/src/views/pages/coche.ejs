@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head><%- include('../partials/head'); %></head>
+
+    <body>
+        <header><%- include('../partials/header'); %></header>
+
+        <main>
+            <%if (coche?.id) { %>
+                <h2>COCHE N°<%= ` ${coche.id}` %></h2>
+                <br>
+                <p>Marca:<%= ` ${coche.marca}` %></p>
+                <p>Modelo:<%= " " + coche.modelo %></p>
+                <p>Año de fabricación:<%= coche.anio %></p>
+                <img class="img-thumbnail w-25 m-2" src="../public/img/motor.jpg" alt="motor">
+            <% } %>
+            <br>
+        </main>
+
+        <footer><%- include('../partials/footer'); %></footer>
+    </body>
+</html>

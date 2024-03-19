@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head><%- include('../partials/head.ejs') %></head>
+<body>
+
+    <header><%- include('../partials/header.ejs') %></header>
+
+    <h1>otro ejemploO</h1>
+    <% for (let i = 0; i < personas.length; i++) { %>
+        <% if (personas[i]?.edad >= 18 ) { %>
+        <p>Nombre: <%= personas[i].nombre %></p>  
+        <p>Apellido:  <%= personas[i].apellido %></p>
+        <p>Edad:  <%= personas[i].edad %></p>
+        <br>
+        <div>
+        imagen
+        <br>
+        <img class="img w-25 m-2" src="<%= personas[i].imagen %>" alt="">
+        </div
+
+    <% }  %> 
+    <% }  %>
+
+    >
+
+    <footer><%- include('../partials/footer.ejs') %></footer>
+    
+     
+
+</body>
+</html>

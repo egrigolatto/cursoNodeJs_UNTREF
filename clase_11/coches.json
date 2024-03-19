@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"marca": "Ford",
+        "modelo": "Ranger",
+        "anio": 2023,
+        "precio": 12500250,
+        "descuento": 3.5,
+        "es_0km": true,
+        "velocidad_crucero": "Control en el volante"
+    },
+	{
+        "id": 2,
+        "marca": "Fiat",
+        "modelo": "Palio",
+        "anio": 2021,
+        "precio": 6700000,
+        "descuento": 5.0,
+        "es_0km": true
+	},
+	{
+        "id": 3,
+        "marca": "Fiat",
+        "modelo": "Toro",
+        "anio": 2021,
+        "precio": 9350000,
+        "es_0km": false
+	},
+    {
+        "id": 4,
+        "marca": "Chevrolet",
+        "modelo": "S10",
+        "anio": 2019,
+        "precio": 9800000,
+        "descuento": 1.5,
+        "es_0km": false,
+        "velocidad_crucero": "Control en el tablero"
+    },
+    {
+        "id": 5,
+        "marca": "Chevrolet",
+        "modelo": "corsa",
+        "anio": 2018,
+        "precio": 3900000,
+        "es_0km": false
+    },
+    {
+        "id": 6,
+        "marca": "Fiat",
+        "modelo": 1,
+        "anio": "2009",
+        "precio": 2650000,
+        "descuento": 10.0,
+        "es_0km": false
+    },
+    {
+        "id": 8,
+        "marca": "Fiat",
+        "modelo": "uno",
+        "anio": 2012,
+        "precio": 3200000,
+        "es_0km": false
+    },
+    {
+        "id": 10,
+        "marca": "Renault",
+        "modelo": "Sandero",
+        "anio": "2013",
+        "precio": 3125000,
+        "es_0km": false
+    },
+    {
+        "id": 11,
+        "marca": "Renault",
+        "modelo": "Daster",
+        "anio": "2021",
+        "descuento": 10.0,
+        "precio": 6400000,
+        "es_0km": true,
+        "velocidad_crucero": "Control en el volante"
+    }
+]

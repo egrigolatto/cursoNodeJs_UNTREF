@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug with Nodemon",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/material_complementario/src/ejs/server.js",
+            "console": "integratedTerminal",
+        }
+    ]
+}

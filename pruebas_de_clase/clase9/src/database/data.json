@@ -1,0 +1,12 @@
+[
+	{
+		"id": 1,
+		"marca": "Ford",
+		"color": "azul"
+	},
+	{
+		"id": 2,
+		"marca": "Toyoya",
+		"color": "borravino"
+	}
+]

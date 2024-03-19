@@ -1,0 +1,6 @@
+MIDDLEWARE
+app.use(bodyParser.json())
+
+Body-parser es una librería de Node. js que se utiliza con Express para analizar y procesar los datos de solicitudes HTTP, como JSON o datos de formulario. Esto permite acceder amigablemente a los datos que vienen en el body de una request.
+
+Importante: para hacer una request de tipo POST, se debe proporcionar el encabezado "Content-Type": "application/json" y los datos se envían por el body raw (como json).

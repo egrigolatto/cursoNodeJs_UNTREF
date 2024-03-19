@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head><%- include('../partials/head'); %></head>
+
+    <body>
+        <header><%- include('../partials/header'); %></header>
+
+        <main>
+            <h2>COCHES</h2>
+            <br>
+
+            <table class="table">
+                <thead>
+                    <tr">
+                        <th>ID</th>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Año</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <% for (let i=0; i < coches.length> 0; i++) { %>
+                        <tr>
+                            <td><%=coches[i].id%></td>
+                            <td><%=coches[i].marca%></td>
+                            <td><%=coches[i].modelo%></td>
+                            <td><%=coches[i].anio%></td>
+                        </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </main>
+
+        <footer><%- include('../partials/footer'); %></footer>
+    </body>
+</html>
